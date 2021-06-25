@@ -1,0 +1,9 @@
+.container-box {
+  width: 70%;
+  margin: 0 auto;
+}
+.content-area {
+  background: #f4f9ff;
+  border: 1px solid yellow;
+  padding: 20px;
+}

@@ -1,0 +1,47 @@
+.header-section {
+  background: linear-gradient(
+      to top,
+      rgba(120, 123, 133, 0.335) 0%,
+      rgba(120, 123, 133, 0.315) 100%
+    ),
+    url("../../images/colleagues-working-together-modern-office-using-devices-gadgets-during-creative-meeting_155003-33626.jpg");
+  width: 100%;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.btn-position {
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+.custom-shape-divider-bottom-1624565837 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1624565837 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 129px;
+}
+
+.custom-shape-divider-bottom-1624565837 .shape-fill {
+  fill: #ffffff;
+}

@@ -1,0 +1,22 @@
+.description-area {
+  /* border: 1px solid black; */
+  width: 95%;
+  margin: 10px auto;
+  padding: 5px;
+}
+.description-area h2 {
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  margin: auto 0;
+  background: white;
+}
+.click-btn {
+  font-size: 1rem;
+  padding: 10px 15px;
+  border: none;
+  background: #ffaa18;
+}
+.description-area p {
+  padding: 10px;
+  transition: all 0.3s ease;
+}
