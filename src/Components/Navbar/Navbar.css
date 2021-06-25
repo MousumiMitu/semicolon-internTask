@@ -17,3 +17,10 @@
   text-transform: uppercase;
   padding: 15px 25px;
 }
+.secondary-btn {
+  outline: none;
+  border: none;
+  background: white;
+  padding: 15px 25px;
+  margin-left: 10px;
+}

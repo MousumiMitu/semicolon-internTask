@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Description from "../Description/Description";
+import Sidebar from "../Sidebar/Sidebar";
 import "./About.css";
 
 const About = () => {
@@ -66,14 +67,16 @@ const About = () => {
     },
   ];
   return (
-    <div className="my-5 container-box">
-      <div className="row">
+    <div className="my-5 py-3 container-box">
+      <div className="row my-5">
         <div className="col-md-8 content-area">
           {dataList.map((data) => (
             <Description data={data}></Description>
           ))}
         </div>
-        <div className="col-md-4"></div>
+        <div className="col-md-4">
+          <Sidebar />
+        </div>
       </div>
     </div>
   );

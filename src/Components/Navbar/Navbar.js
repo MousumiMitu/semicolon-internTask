@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav class="navbar navbar-expand-lg navbar-light container">
         <div class="container-fluid">
           <a class="nav-link-item" href="#">
-            Navbar
+            ONITIR
           </a>
           <button
             class="navbar-toggler"
@@ -55,6 +55,9 @@ const Navbar = () => {
             <form class="d-flex">
               <button class="primary-btn" type="submit">
                 Get a quote
+              </button>
+              <button className="secondary-btn">
+                <i class="fas fa-ellipsis-v"></i>
               </button>
             </form>
           </div>

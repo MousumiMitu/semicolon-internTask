@@ -9,6 +9,8 @@
   text-transform: uppercase;
   margin: auto 0;
   background: white;
+  color: #0e223b;
+  font-weight: 700;
 }
 .click-btn {
   font-size: 1rem;

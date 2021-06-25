@@ -1,0 +1,43 @@
+.social-icons {
+  color: #0e223b;
+  position: relative;
+}
+
+.icon-box {
+  margin-left: 40px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+
+.icon-box:hover {
+  background: #ffaa18;
+}
+.newsfeed-section {
+  width: 35%;
+}
+.newsfeed-section h6 {
+  line-height: 10px;
+  color: #ffaa18;
+}
+.newsfeed-section p {
+  line-height: 20px;
+  color: #0e223b;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.news-feed-icon {
+  width: 100px;
+  height: 60px;
+
+  margin-right: 20px;
+}
+.news-feed-icon > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+ul li {
+  list-style: none;
+}
